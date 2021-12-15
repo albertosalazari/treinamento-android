@@ -1,0 +1,9 @@
+<resources>
+    <string name="lorem">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    Lorem Ipsum is simply dummy text of the printing and typesetting industry.</string>
+    <string name="enviar">ENVIAR</string>
+    <string name="cancelar">CANCELAR</string>
+</resources>
