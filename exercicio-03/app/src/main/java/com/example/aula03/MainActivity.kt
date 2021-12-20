@@ -29,10 +29,12 @@ class MainActivity : AppCompatActivity() {
         tvResult = findViewById(R.id.tv_result)
 
         btnCalculate.setOnClickListener {
-            val imc = calculateIMC().toString()
+            val format = DecimalFormat("##.00")
+
+            val imc = calculateIMC()
             val result = rangeIMC()
 
-            tvImc.text = imc
+            tvImc.text = format.format(imc)
             tvResult.text = result
             tvImc.visibility = View.VISIBLE
             tvResult.visibility = View.VISIBLE
