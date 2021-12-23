@@ -8,4 +8,5 @@ class MachineViewHolder(item: View) : RecyclerView.ViewHolder(item) {
     val tvName = ItemMachineBinding.bind(item).tvMachineName
     val tvPrice = ItemMachineBinding.bind(item).tvMachinePrice
     val ivMachine = ItemMachineBinding.bind(item).ivMachinePhoto
+
 }

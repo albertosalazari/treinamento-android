@@ -25,6 +25,11 @@
             android:label="@string/txt_machines_title"
             android:screenOrientation="portrait" />
         <activity
+            android:name="br.com.cwi.nespresso_app.presentation.feature.products.machine.machine_detail.MachineDetailActivity"
+            android:exported="false"
+            android:label=""
+            android:screenOrientation="portrait" />
+        <activity
             android:name=".presentation.feature.bag.BagActivity"
             android:exported="false"
             android:screenOrientation="portrait" />
